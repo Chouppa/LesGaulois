@@ -44,14 +44,7 @@ public class Village {
 		Chef abraracourcix = new Chef("Abraracourcix" , 6 , village);
 		Gaulois asterix = new Gaulois("Astérix" , 8);
 		Gaulois obelix = new Gaulois("Obélix" , 25);
-		
-		// Gaulois gaulois = village.trouverHabitant(30);
-		// L'index 30 n'est pas défini dans un tableau de 30 (index 29 max)
-		
-		// Gaulois gaulois = village.trouverHabitant(1);
-		// System.out.println(gaulois);
-		// Même raison, index décalé de 1 dans un tableau (départ à 0)
-		
+
 		village.setChef(abraracourcix);
 		village.ajouterHabitant(asterix);
 		village.ajouterHabitant(obelix);
